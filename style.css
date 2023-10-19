@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation-name: all;
+  animation-delay: 9.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  background-color: none;
+}
+html,
+body {
+  height: 100%;
+  background-image: url("./images/background.png ");
+  width: 1485px;
+  height: 740px;
+  display: grid;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tree {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+.apple {
+  position: absolute;
+  width: 45px;
+  height: 40px;
+  top: 65px;
+  left: 30px;
+}
+.appletree {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 205px;
+}
+.apple2 {
+  top: 20px;
+  left: 80px;
+}
+.apple3 {
+  top: 85px;
+  left: 110px;
+}
+.apple4 {
+  top: 40px;
+  left: 155px;
+}
+.apple5 {
+  top: 80px;
+  left: 200px;
+}
+.appletree2 {
+  top: -150px;
+  left: 270px;
+}
+.appletree3 {
+  left: 530px;
+  top: -400px;
+}
+.appletree4 {
+  left: 800px;
+  top: -750px;
+}
+.appletree5 {
+  left: 1055px;
+  top: -1000px;
+}
+.basketimg {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  animation-name: basket;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  top: -920px;
+}
+.basketimg2 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  animation-name: basket2;
+  top: -1020px;
+  margin-left: 1180px;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+.basket {
+  width: 100px;
+  height: 100px;
+  /* top: 560px; */
+  /* position: absolute; */
+}
+.apple01 {
+  animation-name: apple01;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.apple12 {
+  animation-name: apple12;
+  animation-delay: 2.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.apple44 {
+  animation-name: apple44;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.apple15 {
+  animation-name: apple15;
+  animation-delay: 5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.apple23 {
+  animation-fill-mode: forwards;
+  animation-name: apple23;
+  animation-delay: 3.8s;
+  animation-duration: 1s;
+}
+.apple31 {
+  animation-fill-mode: forwards;
+  animation-name: apple31;
+  animation-delay: 5s;
+  animation-duration: 1s;
+}
+.apple14 {
+  animation-fill-mode: forwards;
+  animation-name: apple14;
+  animation-delay: 8s;
+  animation-duration: 1s;
+}
+.apple05 {
+  animation-fill-mode: forwards;
+  animation-name: apple05;
+  animation-delay: 7s;
+  animation-duration: 1s;
+}
+.apple42 {
+  animation-fill-mode: forwards;
+  animation-name: apple42;
+  animation-delay: 7s;
+  animation-duration: 1s;
+}
+.apple34 {
+  animation-fill-mode: forwards;
+  animation-name: apple34;
+  animation-delay: 8s;
+  animation-duration: 1s;
+}
+
+@keyframes apple01 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 405px;
+    display: none;
+  }
+}
+@keyframes basket {
+  25% {
+    left: 305px;
+  }
+  60% {
+    left: 460px;
+  }
+  80% {
+    left: 180px;
+  }
+  100% {
+    left: 390px;
+  }
+}
+
+@keyframes basket2 {
+  25% {
+    right: 580px;
+  }
+  50% {
+    right: 355px;
+  }
+  80% {
+    right: 60px;
+  }
+  100% {
+    right: 260px;
+  }
+}
+@keyframes apple12 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 430px;
+    display: none;
+  }
+}
+@keyframes apple44 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 405px;
+    display: none;
+  }
+}
+@keyframes apple15 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 440px;
+    display: none;
+  }
+}
+@keyframes apple23 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 415px;
+    display: none;
+  }
+}
+@keyframes apple31 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 440px;
+    display: none;
+  }
+}
+@keyframes apple14 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 440px;
+    display: none;
+  }
+}
+@keyframes apple42 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 415px;
+    display: none;
+  }
+}
+@keyframes apple05 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 405px;
+    display: none;
+  }
+}
+@keyframes apple42 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 405px;
+    display: none;
+  }
+}
+@keyframes apple34 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 440px;
+    display: none;
+  }
+}
+@keyframes all {
+  from {
+    background-color: none;
+  }
+  to {
+    background-color: #fff;
+    opacity: 0.4;
+  }
+}
+#appleinb {
+  position: absolute;
+  left: 28px;
+  top: 17px;
+  width: 45px;
+  height: 40px;
+  animation-name: appleinb;
+  visibility: hidden;
+  animation-delay: 1.7s;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#appleinb2 {
+  position: absolute;
+  left: 53px;
+  top: 14px;
+  width: 40px;
+  height: 40px;
+  animation-name: appleinb;
+  visibility: hidden;
+  animation-delay: 4.5s;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#appleinb3 {
+  position: absolute;
+  left: 8px;
+  top: 17px;
+  width: 40px;
+  height: 40px;
+  animation-name: appleinb;
+  visibility: hidden;
+  animation-delay: 5.7s;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#appleinb4 {
+  position: absolute;
+  left: 19px;
+  top: -2px;
+  width: 40px;
+  height: 40px;
+  animation-name: appleinb;
+  visibility: hidden;
+  animation-delay: 7.7s;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+#appleinb5 {
+  position: absolute;
+  left: 40px;
+  top: -2px;
+  width: 40px;
+  height: 40px;
+  animation-name: appleinb;
+  visibility: hidden;
+  animation-delay: 8.7s;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes appleinb {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
